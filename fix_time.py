@@ -14,7 +14,7 @@ file_name = 'Test.xlsx' # put the file name and path here
 
 period = datetime.timedelta(seconds = 5)
 
-df = pd.read_excel(file_name, index_col = None) # read file into dataframe
+df = pd.read_excel(file_name) # read file into dataframe
 
 time_column = df['Time']
 
